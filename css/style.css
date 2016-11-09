@@ -1,0 +1,149 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: 'Montserrat','Source Sans Pro', sans-serif;
+  color: #5c5c5c;
+  overflow-x: hidden;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+  background-color:#fff;
+
+}
+
+body {
+	-webkit-backface-visibility: hidden;
+}
+body {
+	margin: 0;
+}
+body {
+	line-height: 1;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	outline:none !important;
+	transition: all 0.3s ease-in-out;
+}
+nav {
+  background: #0088f6;
+  box-shadow: 0 1px 3px 0 hsla(0,0%,84%,.8);
+}
+
+nav .brand-logo, nav ul a  {
+	color: #fff;
+}
+
+nav .brand-logo {
+  margin: 12px 5px 0px 12px;
+}
+
+nav .brand-logo img {
+  width: 45px;
+  height: 45px;
+}
+
+nav {
+	color: #fff;
+}
+
+nav .nav-wrapper ul li a {
+  font-family: 'Montserrat','Source Sans Pro', sans-serif;
+	  font-weight:400;
+}
+.fixed-top {
+	position:fixed;
+	top:0;
+}
+
+.card {
+ box-shadow: 0 1px 3px 0 hsla(0,0%,81%,.45);
+ border:1px solid #dddddd;
+      margin-left: 0.75rem !important;
+     margin-right: 0.75rem !important;
+}
+
+.card-start {
+	height:330px;
+}
+
+
+.card .card-content {
+	padding:9px;
+}
+
+.card .card-image {
+	overflow:hidden;
+	max-height:180px;
+}
+
+.card .card-content .card-title {
+	font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	margin: 3px 0 3px 0;
+    padding: 0 0 0.5em;
+	line-height:1.08em;
+	color:#014068 !important;
+}
+
+.card-reveal {
+  padding: 3px 20px 20px 20px !important;
+}
+
+.card-reveal .close-icon {
+    position: fixed;
+    right: 0;
+    padding: 9px;
+}
+
+.card-reveal .card-title {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.card-reveal i {
+  font-size: 2em !important;
+}
+
+
+.tags {
+	border-top : 1px solid #f0f4f5;
+}
+
+.chip {
+	margin-top:9px;
+	background-color:#f0f4f5;
+}
+
+.time-ago {
+	font-size:0.9em !important;
+	margin-top:21px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+.hide-small {
+    display: none !important;
+}
+.nav-wrapper{
+	height: 64px !important;
+}
+nav .brand-logo {
+  margin: 12px 0px 0px 0px;
+}
+
+}
