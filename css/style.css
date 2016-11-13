@@ -3,11 +3,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 13px;
   line-height: 24px;
-  font-family: 'Montserrat','Source Sans Pro', sans-serif;
-  color: #5c5c5c;
+  font-family: 'Rubik','Montserrat', sans-serif;
+  color: #373a3c;
   overflow-x: hidden;
   text-shadow: 1px 1px 1px rgba(0,0,0,.004);
-  background-color:#fff;
+  background-color:#fafafa;
 
 }
 
@@ -31,7 +31,10 @@ a {
 	transition: all 0.3s ease-in-out;
 }
 nav {
-  background: #0088f6;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: #16C98D;
   box-shadow: 0 1px 3px 0 hsla(0,0%,84%,.8);
 }
 
@@ -40,7 +43,7 @@ nav .brand-logo, nav ul a  {
 }
 
 nav .brand-logo {
-  margin: 12px 5px 0px 12px;
+  margin: 9px 5px 0px 12px;
 }
 
 nav .brand-logo img {
@@ -61,12 +64,18 @@ nav .nav-wrapper ul li a {
 	top:0;
 }
 
+.main-app {
+  margin-top: 69px;
+}
+
 .card {
  box-shadow: 0 1px 3px 0 hsla(0,0%,81%,.45);
  border:1px solid #dddddd;
       margin-left: 0.75rem !important;
      margin-right: 0.75rem !important;
 }
+
+
 
 .card-start {
 	height:330px;
@@ -91,8 +100,16 @@ nav .nav-wrapper ul li a {
 	margin: 3px 0 3px 0;
     padding: 0 0 0.5em;
 	line-height:1.08em;
-	color:#014068 !important;
+	color:#2a3754 !important;
 }
+
+
+
+
+.card .card-content .card-title:hover {
+  color:#16C98D !important;
+}
+
 
 .card-reveal {
   padding: 3px 20px 20px 20px !important;
@@ -109,10 +126,35 @@ nav .nav-wrapper ul li a {
   font-weight: 500;
 }
 
+.card-reveal .card-title {
+  margin: 9px 3px 9px 3px;
+}
+
+
 .card-reveal i {
   font-size: 2em !important;
 }
 
+.read-more  i {
+  font-size: 1.2em !important;
+      vertical-align: middle;
+      float: right;
+      margin-top: 9px;
+}
+
+.read-more {
+  width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #FF0A5E !important;
+
+}
+
+.card-reveal p {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-family: 'Montserrat';
+}
 
 .tags {
 	border-top : 1px solid #f0f4f5;
@@ -144,6 +186,9 @@ nav .nav-wrapper ul li a {
 }
 nav .brand-logo {
   margin: 12px 0px 0px 0px;
+}
+.main-app {
+  margin-top: 64px;
 }
 
 }
